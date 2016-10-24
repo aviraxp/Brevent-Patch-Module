@@ -1,20 +1,41 @@
-# How to Create A New Repo
-1. Fork this repo
-2. Edit "config.sh", and follow the instructions in the script file to create your own Magisk Module. Note that you might want to use Notepad++ on Windows, since the script files are using Unix endline.
-3. Edit "module.prop" with the manifest of your module
-4. Edit "changelog.txt", the info will be shown in Magisk Manager
-5. Edit the description of your Github repo to the ID of the module. Magisk Manager uses that value as identification
-5. Contact @topjohnwu on XDA for a request to add a new module repo. You'll get an empty repo with permission only given to you and the owners of Magisk-Modules-Repo.
-6. Push your module to the new repo created for you. You can push updates directly to your repo in the future as you wish.
+#Brevent-Patch-Module
+-----
+A [Magisk](http://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445) module that patches `services.jar` for [Brevent](https://github.com/liudongmiao/Brevent) （without modifying `/system`）.
 
-# Notes
-1. In the module.prop file, version is any string you like, any fancy version name (e.g. ultra-beta-v0.0.0.1) is allowed. However, the versionCode "MUST" be an integer. The value is used for version comparison.
-2. Make sure the ID in module.prop doesn't contain any spaces.
-3. Any changes to the branch "master" will be reflected to all users immediately. If you are working on an update for a module, please work on another branch, make sure it works, and then merge the changes to master.
+Tested on my own Nexus 5X.
 
-# Update A Module in a Nutshell
-1. Open a new branch, and start working on it
-2. Test if everything works
-3. Bump up the versionCode in module.prop, or Magisk Manager won't know that your module is updated!
-4. Edit changelog.txt with the changes you made
-3. Merge the changes to master, all users will now receive the update in Magisk Manager
+一個 [Magisk](http://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445) 模塊，可以在避免修改 `/system` 的情況下使用 [Brevent](https://github.com/liudongmiao/Brevent)。
+
+已在本人的 Nexus 5X 上測試。
+
+![ScreenShot](http://img.vim-cn.com/39/4df49e6557b3c2b6bcc5098de1b6e5053bf1f9.jpg)
+
+-----
+##WARNING/注意：
+
+This module can only be used on Nexus 5X (Bullhead) with Android 7.0 (NBD90W).  
+To use this module, you have to install [Magisk](http://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445) and Magisk Manager first.
+
+本模塊只可在運行 Android 7.0（NBD90W） 的 Nexus 5X（Bullhead） 上使用。
+需要 [Magisk](http://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445) 和 Magisk Manager 來安裝本模塊。
+
+-----
+## Usage / 使用方法:
+
+Just simply install it in the Magisk Manager
+
+直接在 Magisk Manager 裏安裝並啓用即可。
+
+
+## Download / 下載：
+
+Goto [releases](https://github.com/RedL0tus/Brevent-Patch-Module/releases)
+
+前往 [Releases](https://github.com/RedL0tus/Brevent-Patch-Module/releases)
+
+-----
+
+本模塊修改自 https://github.com/aviraxp/Brevent-Patch-Module
+
+
+感謝 @aviraxp
