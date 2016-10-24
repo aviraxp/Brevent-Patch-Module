@@ -1,5 +1,4 @@
 #Brevent-Patch-Module
------
 A [Magisk](http://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445) module that patches `services.jar` for [Brevent](https://github.com/liudongmiao/Brevent) （without modifying `/system`）.
 
 Tested on my own Nexus 5X.
@@ -10,7 +9,6 @@ Tested on my own Nexus 5X.
 
 ![ScreenShot](http://img.vim-cn.com/39/4df49e6557b3c2b6bcc5098de1b6e5053bf1f9.jpg)
 
------
 ##WARNING/注意：
 
 This module can only be used on Nexus 5X (Bullhead) with Android 7.0 (NBD90W).  
@@ -19,7 +17,6 @@ To use this module, you have to install [Magisk](http://forum.xda-developers.com
 本模塊只可在運行 Android 7.0（NBD90W） 的 Nexus 5X（Bullhead） 上使用。
 需要 [Magisk](http://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445) 和 Magisk Manager 來安裝本模塊。
 
------
 ## Usage / 使用方法:
 
 Just simply install it in the Magisk Manager
