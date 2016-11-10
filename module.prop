@@ -1,7 +1,7 @@
 id=Brevent
 name=Brevent Patch
-version=v20161024
-versionCode=20161024
+version=v20161110
+versionCode=20161110
 author=aviraxp
 description=Brevent System Framework Patch (Orion OS 2.7 for Oneplus 2)
 support=https://github.com/aviraxp/Brevent-Patch-Module/issues
